@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SurfaceView
+        android:id="@+id/id_camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+       android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/id_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+
+        <ImageView
+            android:id="@+id/id_switch_camera"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/icon_switch_camera"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+
+
+        <ImageView
+            android:id="@+id/id_start_recorder_btn"
+            android:layout_marginBottom="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/icon_start_recorder"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
