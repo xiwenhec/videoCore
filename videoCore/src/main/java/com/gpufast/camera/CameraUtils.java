@@ -119,5 +119,4 @@ class CameraUtils {
         float r = (float)(s.height) / (float)(s.width);
         return Math.abs(r - rate) <= 0.03;
     }
-
 }
